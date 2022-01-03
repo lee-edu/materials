@@ -1,0 +1,15 @@
+*/*
+
+template
+theoretical
+
+!**/notes/
+!**/out/
+!**/readings/
+!**/topics/
+
+**/node_modules
+**/__pycache__
+
+# Specific
+/art of data/topics/labs/

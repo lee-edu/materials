@@ -1,0 +1,14 @@
+// Pre-request
+const randInt = bound => Math.floor(Math.random() * bound);
+const N = randInt(100);
+const array = Array.from(
+    {length: N}, () => Math.floor(Math.random() * N));
+const sum = array.reduce((a,x) => a+x, 0);
+
+pm.variables.set("body", JSON.stringify({array}));
+pm.variables.set("sum", sum);
+
+// Test
+pm.test("correct sum of list", () => {
+    pm.expect(pm.response.json()).to.eql(pm.variables.get("sum"));
+})
