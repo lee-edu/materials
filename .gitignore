@@ -11,6 +11,9 @@ theoretical
 **/node_modules
 **/__pycache__
 
+**/.DS_STORE
+
 # Specific
 /art of data/topics/labs/
 /seminar/topics/gridworld/gridgames/
+/seminar/topics/gridworld/cats/

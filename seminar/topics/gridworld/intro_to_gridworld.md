@@ -36,5 +36,3 @@ Create a project named `fancyBugs`. Be sure to add it to the source path as well
 4. `RectangleBug` takes two parameters in its constructor: `l` and `w`; it should draw a rectangle with length `l` and width `w`.
 5. `RandomBug` moves and turns randomly with each step.
 6. `RainbowBug` does not move but changes color each time it acts; it rotates between red, orange, yellow, green, and blue.
-7. `PolygonBug` takes two parameters in its constructor: `n` and `s`; it should draw a regular `n`-gon that has sides of length `s`.
-
