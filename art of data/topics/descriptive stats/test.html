@@ -1,0 +1,104 @@
+<h1 id="descriptive-statistics">Descriptive Statistics</h1>
+<h2 id="definitions">Definitions</h2>
+<p><strong>Descriptive statistics</strong> is also called
+<strong>summary statistics</strong>, and as the name implies, is the
+study of <em>describing</em> datasets.</p>
+<ol type="1">
+<li>Descriptive stats can only be applied to samples and <em>not</em>
+populations. Why do you think that is?</li>
+<li>Why can’t we use descriptive stats to make conclusions about a
+population?</li>
+<li>Some measures you may already be familiar with include the
+<strong>mean</strong> and <strong>mode</strong>. What information is
+captured by those numbers, and what information is lost?</li>
+</ol>
+<h2 id="describing-qualitative-data">Describing Qualitative Data</h2>
+<p>Examine the dataset <code>icecream.csv</code> on Google Classroom,
+which is collected for the question:<br />
+“What is a high school student’s favorite ice cream flavor?”</p>
+<ol type="1">
+<li>Identify the population of the posed question.</li>
+<li>Identify a feasible sampling frame.</li>
+<li>Is this data <em>ordinal</em> or <em>nominal</em>? Explain.</li>
+<li>Using your answer above, explain why it would <em>not</em> make
+sense to find the <em>mean</em> ice cream flavor. Would it make sense to
+find the mode?</li>
+</ol>
+<h3 id="frequency-distributions">Frequency Distributions</h3>
+<ol type="1">
+<li>What is a <strong>frequency distribution</strong>?</li>
+<li>How could we represent a frequency distribution in Python? Use
+<code>icecream.csv</code> as an example.</li>
+</ol>
+<p>One way of visualizing frequency distributions is by creating a
+<strong>categorical bar chart</strong>. These are sometimes referred to
+as <strong>Pareto charts</strong> (but not in this class.)</p>
+<h4 id="categorical-bar-charts">Categorical Bar Charts</h4>
+<figure>
+<img src="img/barchart.png"
+alt="Categorical bar chart of ice cream flavors" />
+<figcaption aria-hidden="true">Categorical bar chart of ice cream
+flavors</figcaption>
+</figure>
+<ol type="1">
+<li>What do the <strong>x</strong> and <strong>y axes</strong>
+represent?</li>
+<li>What information does this <strong>categorical bar chart</strong>
+quickly tell us about the dataset?</li>
+<li>What information from the original dataset is lost in this
+chart?</li>
+</ol>
+<h2 id="describing-quantitative-data">Describing Quantitative Data</h2>
+<p>Let’s review <code>penguins.csv</code>; this time, we’ll look only at
+the bill lengths of Gentoo penguins.</p>
+<ol type="1">
+<li>Write a Python file to read in <code>penguins.csv</code> and create
+a list of Gentoo penguin bill lengths (or reuse code from before.) What
+is the <strong>mean</strong> bill length?</li>
+</ol>
+<p>penguins[penguins[“species”]==“Gentoo”][“bill_length_mm”].mean()</p>
+<ol start="2" type="1">
+<li>It can be useful to visualize the frequency distribution of
+quantitative data as well. One approach is to make a categorical bar
+chart, with each different value as a category. Why is that not a good
+idea?</li>
+</ol>
+<h3 id="histograms">Histograms</h3>
+<figure>
+<img src="img/histogram.png"
+alt="Histogram of Gentoo penguin bill lengths" />
+<figcaption aria-hidden="true">Histogram of Gentoo penguin bill
+lengths</figcaption>
+</figure>
+<p>This is a <strong>histogram</strong> of Gentoo bill lengths.</p>
+<ol type="1">
+<li>What is a <strong>histogram</strong>? How is each bar labeled, and
+what does the height of the bar represent?</li>
+<li>Why is this a better approach than a categorical bar chart?</li>
+<li>What would happen if we made the intervals bigger? Smaller?</li>
+</ol>
+<h4 id="distribution-shape">Distribution Shape</h4>
+<p>Let’s look at something called a <strong>normal
+distribution</strong>, which we will define formally in the future.</p>
+<figure>
+<img src="img/normal.jpeg" alt="normal distribution" />
+<figcaption aria-hidden="true">normal distribution</figcaption>
+</figure>
+<ol type="1">
+<li>How would you describe the <strong>shape</strong> of this
+distribution? What do you see?</li>
+<li>Where is the <strong>mode</strong> of the distribution
+(visually)?</li>
+<li>What is the difference between a <strong>unimodal</strong> and a
+<strong>bimodal</strong> distribution? What would a
+<strong>bimodal</strong> distribution look like?</li>
+</ol>
+<figure>
+<img src="img/skew.png" alt="skewed distribution" />
+<figcaption aria-hidden="true">skewed distribution</figcaption>
+</figure>
+<ol start="4" type="1">
+<li>The histogram above <strong>skews</strong> left, which means its
+<strong>tail</strong> stretches very long to the left. What would a
+<strong>right-skewed</strong> distribution look like?</li>
+</ol>
