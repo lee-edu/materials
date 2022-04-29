@@ -8,8 +8,16 @@ Each team should submit a document that contains the following information. Your
 ## Reflection
 1. What has your team accomplished since the last check-in?
 2. Which goals were not completed since the last check-in?
-3. What issues prevented you from completing these goals?
+3. Are you still aligned with your initial schedule?
+4. What issues prevented you from completing these goals?
 
 ## Plan
 1. How will your team address the issues that came up?
 2. What are concrete goals for your team to accomplish before the next check-in? These goals should be small, achievable, and in priority order.
+
+## Present (on Friday)
+Each project team will present the following:
+   1. What's been accomplished since the last class check-in
+   2. What the goal is for the next check-in
+   3. Any major issues that have come up
+

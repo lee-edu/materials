@@ -57,7 +57,7 @@ System.out.println("Task completed.");
    1. How does this change what prints?
    2. Does this change the *number* of times the program prints?
 6. What are *three* different ways to modify the code so that the loop only executes _twice_?
-7. What are the three parts of a whileloop that controls the number of times it executes?
+7. What are the three parts of a while loop that controls the number of times it executes?
 8. What would happen if we deleted the increment statement in the body?
 9. What syntax tells you where the body of the while loop starts and ends?
 
